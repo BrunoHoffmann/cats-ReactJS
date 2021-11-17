@@ -5,14 +5,14 @@ import Route from './Route';
 
 import SignIn from '../pages/SignIn';
 
-import NotFound from '../pages/SignIn copy';
+import NotFound from '../pages/NotFound';
 
 const Routes: React.FC = () => (
   <Switch>
-    <Route path="/" component={SignIn} />
+    <Route isPrivate path="/" component={SignIn} />
 
     {/* Page NotFount */}
-    <Route component={NotFound} />
+    <Route isPrivate component={NotFound} />
   </Switch>
 );
 
