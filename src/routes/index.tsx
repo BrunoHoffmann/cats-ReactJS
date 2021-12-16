@@ -9,10 +9,10 @@ import NotFound from '../pages/NotFound';
 
 const Routes: React.FC = () => (
   <Switch>
-    <Route isPrivate path="/" component={SignIn} />
+    <Route isPrivate={false} path="/" component={SignIn} />
 
     {/* Page NotFount */}
-    <Route isPrivate component={NotFound} />
+    <Route isPrivate={false} component={NotFound} />
   </Switch>
 );
 

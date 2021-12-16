@@ -25,6 +25,7 @@
   },
   "plugins": ["react", "react-hooks", "@typescript-eslint", "prettier"],
   "rules": {
+    "react/require-default-props": "off",
     "camelcase": "off",
     "no-use-before-define": "off",
     "@typescript-eslint/no-use-before-define": ["error"],
