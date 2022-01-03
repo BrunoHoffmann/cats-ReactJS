@@ -54,3 +54,33 @@ export const Title = styled.h1`
     z-index: -1;
   }
 `;
+
+export const SubTitle = styled.h2`
+  line-height: 1;
+  font-size: 2rem;
+
+  &:after {
+    content: '';
+    display: block;
+    background: #ddd;
+    height: 0.5rem;
+    width: 3rem;
+    border-radius: 0.2rem;
+  }
+`;
+
+export const LinkReset = styled.a`
+  display: inline-block;
+  color: #666;
+  padding: 0.5rem 0;
+  line-height: 1;
+  cursor: pointer;
+
+  &:after {
+    content: '';
+    height: 2px;
+    width: 100%;
+    background: currentColor;
+    display: block;
+  }
+`;
