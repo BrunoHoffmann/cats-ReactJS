@@ -5,20 +5,16 @@
       <img class="capa" src="../../assets/img/login.jpg" alt="">
       <div>
         <div class="form-login">
-          <Title title="Login" />
-          <form action="">
+          <Title title="Cadastre-se" />
+          <form>
             <Label class="label" forLabel="username" titleLabel="Usuário" />
             <Input type="text" />
+            <Label class="label" forLabel="email" titleLabel="email" />
+            <Input type="email" />
             <Label class="label" forLabel="password" titleLabel="Senha" />
             <Input type="password" />
-            <Button title="Entrar"></Button>
+            <Button title="Cadastrar"></Button>
           </form>
-          <router-link class="forgot" to="/forgot">Perdeu a senha?</router-link>
-          <div class="register">
-            <h2 class="subTitle">Cadastre-se</h2>
-            <span>Ainda não possui conta? Cadastre-se no site.</span>
-            <Button title="Cadastro"></Button>
-          </div>
         </div>
       </div>
     </div>
@@ -37,7 +33,7 @@ import Input from '../../components/Input/Input.vue';
 import Title from '../../components/Title/Title.vue';
 
 export default {
-  name: 'Login',
+  name: 'Register',
   components: {
     MenuLogin,
     Button,
