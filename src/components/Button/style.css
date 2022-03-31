@@ -1,21 +1,25 @@
 button {
   margin-top: 20px;
-  font-size: 1rem;
+  font-size: .9rem;
   cursor: pointer;
   border: none;
   border-radius: 0.4rem;
-  background: #fb1;
-  color: #764701;
+  background: #ed2945;
+  color: #fff;
   width: 140px;
   padding: 0.8rem 1.2rem;
   box-sizing: border-box;
-  transition: 0.1s;
+  transition: all 0.3s;
+  border: 3px solid #ed2945;
+  font-weight: 600;
 }
 
 button:hover,
 button:focus {
   outline: none;
-  box-shadow: 0 0 0 3px #fea, 0 0 0 4px #fb1;
+  background: #fff;
+  color: #000000;
+  border: 3px solid #ed2945;
 }
 
 button:disabled {

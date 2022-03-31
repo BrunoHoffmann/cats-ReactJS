@@ -1,7 +1,7 @@
 <template>
   <div class="header">
     <div>
-      <img src="../../assets/img/dogs.svg" alt="">
+      <img src="../../assets/img/cat-logo-black.png" alt="Logo">
     </div>
     <div class="login">
       <router-link to="/">Login / Criar</router-link>
@@ -14,13 +14,7 @@ import { defineComponent } from 'vue';
 
 export default defineComponent({
   name: 'MenuLogin',
-  data() {
-    return { imgPath: '~assets/img/a.jpeg' }
-  },
   methods: {
-    getURL() {
-      this.imgPath;
-    }
   }
 });
 

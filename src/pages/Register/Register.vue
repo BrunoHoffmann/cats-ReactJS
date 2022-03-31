@@ -2,7 +2,7 @@
   <div>
     <MenuLogin />
     <div class="page">
-      <img class="capa" src="../../assets/img/login.jpg" alt="">
+      <img class="capa" src="../../assets/img/cat-background.jpg" alt="">
       <div>
         <div class="form-login">
           <Title title="Cadastre-se" />
@@ -19,8 +19,8 @@
       </div>
     </div>
     <footer>
-      <img src="../../assets/img/dogs.svg" alt="logo">
-      <p>Dogs. Alguns direitos reservados.</p>
+      <img src="../../assets/img/cat-logo-black.png" alt="logo">
+      <p>Cat. Alguns direitos reservados.</p>
     </footer>
   </div>
 </template>
