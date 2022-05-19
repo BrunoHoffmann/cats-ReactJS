@@ -7,7 +7,7 @@
         <div class="form-login">
           <Title title="Perdeu a senha?" />
           <form>
-            <Label class="label" forLabel="user" titleLabel="Email / Usuário" />
+            <Label class="label" forLabel="user" titleLabel="Email" />
             <Input type="text" />
             <Button title="Enviar Email"></Button>
           </form>

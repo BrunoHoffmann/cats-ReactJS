@@ -1,0 +1,98 @@
+.app {
+  color: #fff;
+}
+
+.capa {
+  width: 50%;
+}
+
+.page {
+  display: flex;
+}
+
+.title {
+  line-height: 1;
+  font-size: 3rem;
+  margin: 1rem 0;
+  position: relative;
+  z-index: 1;
+}
+
+.title::after {
+  content: '';
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: #ed2945;
+  position: absolute;
+  bottom: 5px;
+  left: -5px;
+  border-radius: 0.2rem;
+  z-index: -1;
+}
+
+.subTitle {
+  line-height: 1;
+  font-size: 2rem;
+}
+
+.subTitle::after {
+  content: '';
+  display: block;
+  background: #ddd;
+  height: 0.5rem;
+  width: 3rem;
+  border-radius: 0.2rem;
+}
+
+.forgot {
+  display: inline-block;
+  color: #666;
+  padding: 0.5rem 0;
+  line-height: 1;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.forgot::after {
+  content: '';
+  height: 2px;
+  width: 100%;
+  background: currentColor;
+  display: block;
+}
+
+.register {
+  margin-top: 50px;
+}
+
+.register span {
+  color: #333;
+}
+
+.form-login {
+  margin-top: 130px;
+  margin-left: 40px;
+}
+
+form .label {
+  margin-top: 20px;
+}
+
+footer {
+  background: #ed2945;
+  padding: 4rem 1rem 0 1rem;
+  height: 8rem;
+  text-align: center;
+  color: #333;
+  font-weight: 600;
+  font-size: .9em;
+}
+
+footer p {
+  margin-top: 1rem;
+}
+
+footer img {
+  width: 50px;
+}

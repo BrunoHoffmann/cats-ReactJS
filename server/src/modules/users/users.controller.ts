@@ -7,14 +7,14 @@ import { UsersService } from './users.service';
 export class UsersController {
   constructor(private usersService: UsersService) {}
 
-  @Get()
-  @ApiResponse({ type: ListUsersDto })
-  async list() {
-    return this.usersService.list();
-  }
+  // @Get()
+  // @ApiResponse({ type: ListUsersDto })
+  // async list() {
+  //   return this.usersService.list();
+  // }
 
-  @Post()
-  async create() {
-    return this.usersService.create();
-  }
+  // @Post()
+  // async create() {
+  //   return this.usersService.create();
+  // }
 }

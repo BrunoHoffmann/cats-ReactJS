@@ -7,7 +7,7 @@
         <div class="form-login">
           <Title title="Cadastre-se" />
           <form>
-            <Label class="label" forLabel="username" titleLabel="Usuário" />
+            <Label class="label" forLabel="name" titleLabel="Nome" />
             <Input type="text" />
             <Label class="label" forLabel="email" titleLabel="email" />
             <Input type="email" />
